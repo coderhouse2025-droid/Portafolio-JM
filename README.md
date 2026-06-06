@@ -25,7 +25,7 @@
 
 ---
 
-## 📊 Descripción del producto
+## 📊 Descripción 
 
 Este portafolio centraliza y presenta de forma profesional la trayectoria en Data Science, Machine Learning y Analítica de Negocios de Juan Manuel Orellana. Combina experiencia previa en **control de gestión y administración** con herramientas modernas de ciencia de datos.
 
