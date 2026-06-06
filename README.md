@@ -1,5 +1,8 @@
 # 🌐 Juan Manuel Orellana — Portafolio Personal · Data Science & Analytics
 
+<img width="1376" height="768" alt="Portafolio" src="https://github.com/user-attachments/assets/dc41e0e2-ffc6-4c96-98a6-83cd5bc7a5df" />
+
+
 [![Live Site](https://img.shields.io/badge/Live-Site-brightgreen?style=for-the-badge)](https://coderhouse2025-droid.github.io/tuusuario.github.io/)
 [![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub_Pages-181717?style=for-the-badge&logo=github)](https://pages.github.com/)
 [![Vanilla JS](https://img.shields.io/badge/Stack-Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
