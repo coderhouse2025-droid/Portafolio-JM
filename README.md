@@ -12,8 +12,8 @@
 
 ## 📋 Índice
 
-- [Descripción del producto](#-descripción-del-producto)
-- [Caso de negocio](#-caso-de-negocio)
+- [Descripción](#-descripción)
+- [Objetivo del portafolio](#-objetivo-del-portafolio)
 - [Decisiones técnicas y su justificación](#-decisiones-técnicas-y-su-justificación)
 - [Arquitectura del sitio](#-arquitectura-del-sitio)
 - [Pipeline de datos: de repositorios de GitHub a grilla de proyectos](#-pipeline-de-datos-de-repositorios-de-github-a-grilla-de-proyectos)
@@ -25,34 +25,21 @@
 
 ---
 
-## 📊 Descripción 
+## 📊 Descripción
 
-Este portafolio centraliza y presenta de forma profesional la trayectoria en Data Science, Machine Learning y Analítica de Negocios de Juan Manuel Orellana. Combina experiencia previa en **control de gestión y administración** con herramientas modernas de ciencia de datos.
+Sitio web personal que centraliza mi trayectoria en Data Science, Machine Learning y Analítica de Negocios. Combina mi experiencia previa en **control de gestión y administración** con herramientas modernas de ciencia de datos.
 
-El sitio carga los proyectos dinámicamente desde la **API pública de GitHub**, lo que garantiza que el contenido siempre refleja el estado real del perfil sin necesidad de actualizar el sitio manualmente.
+Los proyectos se cargan dinámicamente desde la **API pública de GitHub**, lo que garantiza que el contenido siempre refleja el estado actual del perfil sin necesidad de actualizar el sitio manualmente.
 
 ---
 
-## 💼 Caso de negocio
+## 🎯 Objetivo del portafolio
 
-### El problema que resuelve
+Vengo de una trayectoria en control de gestión y administración, y estoy transitando hacia Data Science y Analytics. Ese perfil es difícil de comunicar en un CV estándar: no soy desarrollador puro ni analista de negocio tradicional, y esa combinación es precisamente el valor que quiero mostrar.
 
-Un profesional de Data Science en transición desde gestión y administración enfrenta un desafío de comunicación específico: su perfil no encaja en las categorías estándar del mercado laboral. No es un desarrollador puro ni un analista de negocio tradicional — es un híbrido cuyo valor diferencial está en combinar criterio de negocio con capacidad técnica.
+Un portafolio en HTML propio me permite hacer exactamente eso — **mostrar el trabajo en lugar de describirlo**. Cada proyecto está vinculado a su repositorio real, con el código, las decisiones técnicas y el contexto del problema que resuelve. Quien lo visita puede verificar el nivel de trabajo directamente, sin intermediarios.
 
-Un CV en PDF no puede demostrar eso. Una lista de tecnologías en LinkedIn tampoco. El portafolio resuelve exactamente ese problema: **muestra el trabajo en lugar de describirlo**.
-
-El usuario objetivo del sitio es el reclutador técnico o hiring manager que recibe el CV, visita el link del portafolio, y en menos de 60 segundos debe poder responder: ¿este perfil puede resolver los problemas que tenemos?
-
-### La propuesta de valor
-
-- **Proyectos en vivo**: el trabajo es verificable directamente desde el sitio hacia el repositorio
-- **Contexto de negocio**: cada proyecto se presenta con el problema que resuelve, no solo con la tecnología usada
-- **Perfil diferenciado**: la sección "Sobre mí" comunica explícitamente la combinación de habilidades de negocio + técnicas
-- **Disponibilidad laboral**: el sitio funciona como señal activa de búsqueda de empleo, actualizable en tiempo real
-
-### ¿Por qué un sitio propio y no LinkedIn o Kaggle?
-
-LinkedIn y Kaggle son plataformas genéricas donde todos los perfiles tienen el mismo formato. Un sitio propio permite controlar completamente la narrativa visual y de contenido — qué se destaca primero, cómo se organiza la información, qué proyectos se muestran y en qué orden. En un mercado competitivo, esa diferenciación de presentación es un factor real.
+También es una decisión consciente frente a las alternativas: LinkedIn y Kaggle tienen un formato igual para todos. Un sitio propio me permite organizar el contenido según mi narrativa, destacar lo que considero relevante, y actualizar la disponibilidad laboral en tiempo real. Y construirlo en HTML/CSS/JS puro — sin frameworks — es en sí mismo parte de lo que quiero comunicar: que entiendo los fundamentos, no solo las abstracciones.
 
 ---
 
