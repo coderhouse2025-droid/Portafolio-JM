@@ -1,4 +1,5 @@
-<img width="1376" height="768" alt="Portafolio" src="https://github.com/user-attachments/assets/dc41e0e2-ffc6-4c96-98a6-83cd5bc7a5df" />
+<img width="2752" height="1536" alt="Perfil_de_Juan_Manuel_Orellana" src="https://github.com/user-attachments/assets/bd21f02c-be1b-427e-a4a9-78a00997a4a5" />
+
 
 # 🌐 Juan Manuel Orellana — Portafolio Personal · Data Science & Analytics
 
