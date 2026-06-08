@@ -355,8 +355,7 @@ Plataformas no-code que generan sitios profesionales sin código. El problema en
 ## ⚙️ Instalación local
 
 ```bash
-git clone https://github.com/coderhouse2025-droid/tuusuario.github.io.git
-cd tuusuario.github.io
+git clone https://coderhouse2025-droid.github.io/Portafolio-JM/
 ```
 
 Abrir directamente en el browser:
