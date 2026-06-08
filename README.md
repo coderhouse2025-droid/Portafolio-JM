@@ -8,7 +8,7 @@
 
 > Sitio web de portafolio personal desarrollado con HTML, CSS y JavaScript puro, alojado en GitHub Pages. Presenta mi perfil profesional, habilidades, proyectos de Data Science / Analytics y un formulario de contacto.
 
-🔗 **Live site:** https://coderhouse2025-droid.github.io/tuusuario.github.io/
+🔗 **Live site:** https://coderhouse2025-droid.github.io/Portafolio-JM/
 
 ---
 
