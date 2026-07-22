@@ -513,10 +513,10 @@ Ramos Mejía, Argentina</div>
 Disponible para trabajar</div>
 
 <div class="detail-item"><span class="detail-icon">🎓</span> Lic. en
-Administración · Contador Público - [Universidad]</div> 
+Administración · Contador Público - [Universidad]</div>
 
 <div class="detail-item"><span class="detail-icon">🎓</span>
-Data Science I y II - Coderhouse</div><div
+Data Science I y II - Coderhouse</div>
 
 <div class="detail-item"><span class="detail-icon">🌐</span>
 Español (nativo) · Inglés (básico)</div>
@@ -620,8 +620,6 @@ alt="Matplotlib">
 alt="Seaborn">
 
 <span>Seaborn</span>
-
-</div>
 
 </div>
 
@@ -845,24 +843,25 @@ Enviar mensaje
 
 <!-- CV VIEWER OVERLAY -->
 <div id="cv-page" style="display:none;position:fixed;inset:0;z-index:200;background:#f6faf8;overflow-y:auto;flex-direction:column;">
-  <div style="position:sticky;top:0;z-index:10;background:rgba(255,255,255,0.93);backdrop-filter:blur(12px);border-bottom:1px solid rgba(26,107,60,0.15);padding:0.9rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+  <div style="position:sticky;top:0;z-index:10;background:rgba(255,255,255,0.93);backdrop-filter:blur(12px);border-bottom:1px solid rgba(26,107,60,0.15);padding:0.9rem 2rem;display:flex;align-items:center;justify-content:space-between;">
     <div style="display:flex;align-items:center;gap:0.9rem;">
-      <a href="#" onclick="closeCVPage();return false;" style="display:inline-flex;align-items:center;gap:0.4rem;font-size:0.85rem;font-weight:500;color:#5a6e62;text-decoration:none;padding:0.4rem 0.9rem;border-radius:8px;border:1px solid rgba(26,107,60,0.15);background:white;">
+      <a href="#" onclick="closeCVPage();return false;" style="display:inline-flex;align-items:center;gap:0.4rem;font-size:0.85rem;font-weight:500;color:#5a6e62;text-decoration:none;padding:0.4rem 0.9rem;border-radius:8px;transition:all 0.2s;background:transparent;">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
         Volver al portfolio
       </a>
       <span style="font-family:'Playfair Display',serif;font-size:1rem;">CV — <span style="color:#1a6b3c;">Juan Manuel Orellana</span></span>
     </div>
-    <a id="cv-download-btn" href="#" download="CV.png" style="display:inline-flex;align-items:center;gap:0.5rem;background:#1a6b3c;color:#fff;font-weight:600;font-size:0.92rem;padding:0.65rem 1.5rem;border-radius:10px;text-decoration:none;box-shadow:0 6px 20px rgba(26,107,60,0.25);">
+    <a id="cv-download-btn" href="#" download="CV.png" style="display:inline-flex;align-items:center;gap:0.5rem;background:#1a6b3c;color:#fff;font-weight:600;font-size:0.92rem;padding:0.65rem 1.5rem;border-radius:8px;text-decoration:none;transition:all 0.2s;">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
       Descargar CV
     </a>
   </div>
   <div style="flex:1;display:flex;flex-direction:column;align-items:center;padding:2rem 1rem 3rem;">
     <img id="cv-image" style="width:100%;max-width:860px;height:auto;border:none;border-radius:14px;box-shadow:0 8px 40px rgba(0,0,0,0.10);background:white;" alt="CV Juan Manuel Orellana"/>
-    <div id="cv-fallback" style="display:none;flex-direction:column;align-items:center;gap:1.2rem;padding:3rem;text-align:center;max-width:480px;margin:2rem auto;background:white;border-radius:16px;border:1px solid rgba(26,107,60,0.15);">
+    <div id="cv-fallback" style="display:none;flex-direction:column;align-items:center;gap:1.2rem;padding:3rem;text-align:center;max-width:480px;margin:2rem auto;background:white;border-radius:16px;border:1px solid rgba(26,107,60,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.05);">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
       <p style="color:#5a6e62;font-size:0.95rem;line-height:1.6;">No se pudo previsualizar el CV.<br>Usá el botón para descargarlo directamente.</p>
-      <a id="cv-fallback-btn" href="#" download="CV-JuanManuelOrellana.png" style="display:inline-flex;align-items:center;gap:0.5rem;background:#1a6b3c;color:#fff;font-weight:600;font-size:0.92rem;padding:0.65rem 1.5rem;border-radius:10px;text-decoration:none;">
+      <a id="cv-fallback-btn" href="#" download="CV-JuanManuelOrellana.png" style="display:inline-flex;align-items:center;gap:0.5rem;background:#1a6b3c;color:#fff;font-weight:600;font-size:0.92rem;padding:0.65rem 1.5rem;border-radius:8px;text-decoration:none;transition:all 0.2s;">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         Descargar CV
       </a>
@@ -960,37 +959,37 @@ async function loadRepos() {
       const t = repo.topics || [];
 
       // Multi-category map: repo can appear under multiple filters
-   const categoryMap = {
-    'Portafolio-JM': ['ml', 'analytics'],
-    'Miami-Heat': ['ml', 'analytics'],
-    'Supertienda': ['ml', 'analytics'],
-    'n8n_Workflows-.': ['automatizacion'],
-    'n8n_Workflows-': ['automatizacion'],
-    'n8n_Workflows':  ['automatizacion'],
-    'n8n-Workflows':  ['automatizacion'],
-    'n8n':            ['automatizacion'],
-    'Tableau.github.io': ['bi', 'analytics'],
-    'Dress---Power-BI': ['bi', 'analytics'],
-    'Dress-PowerBI': ['bi', 'analytics'],
-    'dress-powerbi': ['bi', 'analytics'],
-    'Tableros-Interactivos-': ['bi', 'analytics'],  // ← agregado
-    'Tableros-Interactivos':  ['bi', 'analytics'],  // ← sin guion final
-    'Stock':               ['herramientas'],
-    'Generador_QR':        ['herramientas'],
-    'Chatbot':             ['herramientas'],
-    'norma-ar':            ['herramientas'],
-    'Road-FIghter':        ['labs'],
-    'GastoApp-Pro':        ['herramientas'],
-    'MichiPlay':           ['labs'],
-    'professional-portfolio-website':  ['analytics'],
-};
+      const categoryMap = {
+        'Portafolio-JM': ['ml', 'analytics'],
+        'Miami-Heat': ['ml', 'analytics'],
+        'Supertienda': ['ml', 'analytics'],
+        'n8n_Workflows-.': ['automatizacion'],
+        'n8n_Workflows-': ['automatizacion'],
+        'n8n_Workflows':  ['automatizacion'],
+        'n8n-Workflows':  ['automatizacion'],
+        'n8n':            ['automatizacion'],
+        'Tableau.github.io': ['bi', 'analytics'],
+        'Dress---Power-BI': ['bi', 'analytics'],
+        'Dress-PowerBI': ['bi', 'analytics'],
+        'dress-powerbi': ['bi', 'analytics'],
+        'Tableros-Interactivos-': ['bi', 'analytics'],
+        'Tableros-Interactivos':  ['bi', 'analytics'],
+        'Stock':               ['herramientas'],
+        'Generador_QR':        ['herramientas'],
+        'Chatbot':             ['herramientas'],
+        'norma-ar':            ['herramientas'],
+        'Road-FIghter':        ['labs'],
+        'GastoApp-Pro':        ['herramientas'],
+        'MichiPlay':           ['labs'],
+        'professional-portfolio-website':  ['analytics'],
+      };
 
       const categories = categoryMap[repo.name] ||
         (repo.name.toLowerCase().includes('n8n') ? ['automatizacion'] :
          repo.name.toLowerCase().includes('power') || repo.name.toLowerCase().includes('tableau') || repo.name.toLowerCase().includes('bi') ? ['bi'] :
          repo.name.toLowerCase().includes('ml') || repo.name.toLowerCase().includes('machine') ? ['ml'] :
          ['analytics']);
-      const category = categories[0]; // primary category stored in data-category
+      const category = categories[0];
 
       const repoUrl = repo.name === 'Tableau.github.io'
         ? 'https://coderhouse2025-droid.github.io/Tableau.github.io/'
@@ -998,569 +997,105 @@ async function loadRepos() {
 
       const displayTags = t.length ? t.slice(0,4) : (repo.language ? [repo.language,'Data Science'] : ['Data Science']);
       const tagsHtml = displayTags.map(tag => `<span class="tag">${tag}</span>`).join('');
-      const bg = bgColors[i % bgColors.length];
-      const isN8n = repo.name.toLowerCase().includes('n8n');
-      const iconUrl = repoIconos[repo.name] ||
-        (isN8n ? 'https://raw.githubusercontent.com/coderhouse2025-droid/tuusuario.github.io/main/ICONOS/n8n.png' : null);
-      // Repos whose PNG has a white/light background → multiply blends it out over the green banner
-      const blendMode = (['Stock', 'App'].includes(repo.name) || isN8n) ? 'mix-blend-mode:multiply;' : '';
-      const isRoadFighter = repo.name === 'Road-FIghter';
-      const isNormaAR = repo.name === 'norma-ar';
-      const isApp = repo.name === 'App';
-      // GastoApp-Pro y Dress-Power-BI usan PNGs con mucho margen blanco interno alrededor
-      // del logo real; con object-fit:contain se ven chicos respecto a los demás íconos.
-      // Se usa object-fit:cover con zoom + object-position centrado en el contenido real
-      // para que ocupen un tamaño comparable al resto de los repos.
-      const isGastoApp = repo.name === 'GastoApp-Pro';
-      const isDress = ['Dress---Power-BI','Dress-PowerBI','dress-powerbi','Dress Power BI'].includes(repo.name);
-      const imgMaxW = isN8n ? '60%' : (isRoadFighter || isNormaAR ? '75%' : isApp ? '70%' : '80%');
-      const imgMaxH = isN8n ? '80px' : (isRoadFighter ? '100px' : isNormaAR ? '95px' : isApp ? '130px' : '110px');
-      const bannerContent = iconUrl
-        ? (isGastoApp
-            ? `<img src="${iconUrl}" alt="${repo.name}" style="width:133px;height:110px;object-fit:cover;object-position:40% 42%;display:block;margin:auto;" onerror="this.style.display='none';this.parentElement.innerHTML='<span style=\\'font-size:2.5rem\\'>📦</span>';">`
-          : isDress
-            ? `<img src="${iconUrl}" alt="${repo.name}" style="width:230px;height:140px;object-fit:cover;object-position:50% 50%;display:block;margin:auto;" onerror="this.style.display='none';this.parentElement.innerHTML='<span style=\\'font-size:2.5rem\\'>📦</span>';">`
-          : `<img src="${iconUrl}" alt="${repo.name}" style="max-width:${imgMaxW};max-height:${imgMaxH};width:auto;height:auto;object-fit:contain;display:block;margin:auto;${blendMode}" onerror="this.style.display='none';this.parentElement.innerHTML='<span style=\\'font-size:2.5rem\\'>📦</span>';">`)
-        : banners[i % banners.length];
 
-      // Special link for Tableros Interactivos: opens a new page with project buttons
-      const isTableros = repo.name === 'Tableros-Interactivos-' || repo.name === 'Tableros-Interactivos';
-      const isHerramientas = ['Stock','Generador_QR','Chatbot','norma-ar','App'].includes(repo.name);
-      const herramientasUrls = {
-        'Stock':        'https://coderhouse2025-droid.github.io/Stock/',
-        'Generador_QR': 'https://coderhouse2025-droid.github.io/Generador_QR/',
-        'Chatbot':      'https://chatbot-kappa-wheat-30.vercel.app/',
-        'norma-ar':     'https://chatbot-kappa-wheat-30.vercel.app/',
-        'GastoApp-Pro': 'https://coderhouse2025-droid.github.io/App/'
-      };
-      const linkHtml = isTableros
-        ? `<a href="javascript:void(0)" onclick="abrirTablerosPage()" class="proj-link">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            Ver código →
-          </a>`
-        : isHerramientas
-        ? `<a href="${herramientasUrls[repo.name]}" target="_blank" class="proj-link">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Abrir app →
-          </a>`
-        : `<a href="${repoUrl}" target="_blank" class="proj-link">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            Ver código →
-          </a>`;
+      const icon = repoIconos[repo.name] || banners[i % banners.length];
+      const bgColor = bgColors[i % bgColors.length];
 
-      return `<div class="proj-card" data-category="${category}" data-categories="${categories.join(',')}">
-        <div class="proj-banner" style="background:${bg};overflow:hidden;padding:0">${bannerContent}</div>
-        <div class="proj-body">
-          <h3>${repo.name.replace(/[-_]/g,' ')}</h3>
-          <p>${description}</p>
-          <div class="proj-tags">${tagsHtml}</div>
-          ${linkHtml}
+      return `
+        <div class="proj-card" data-category="${category}" data-categories="${categories.join(',')}">
+          <div class="proj-banner" style="background-color: ${bgColor};">
+            ${icon.includes('.png') ? `<img src="${icon}" style="width:80px; height:80px; object-fit:contain;">` : icon}
+          </div>
+          <div class="proj-body">
+            <h3>${repo.name.replace(/-/g, ' ')}</h3>
+            <p>${description}</p>
+            <div class="proj-tags">${tagsHtml}</div>
+            <a href="${repoUrl}" target="_blank" class="proj-link">
+              Ver en GitHub →
+            </a>
+          </div>
         </div>
-      </div>`;
+      `;
     });
 
-    grid.innerHTML = cards.join('');
-
-    const activeBtn = document.querySelector('.filter-btn.active');
-    if (activeBtn) {
-      const f = activeBtn.dataset.filter;
-      document.querySelectorAll('.proj-card').forEach(card => {
-        const cats = (card.dataset.categories || card.dataset.category).split(',');
-        card.style.display = (f === 'all' || cats.includes(f)) ? '' : 'none';
-      });
-    }
-  } catch(e) {
-    grid.innerHTML = '<p class="proj-loading">⚠️ Error: ' + e.message + '</p>';
+    grid.innerHTML = cards.join('') || '<p class="proj-loading">Sin proyectos</p>';
+  } catch (error) {
+    console.error('Error al cargar repositorios:', error);
+    grid.innerHTML = `<p class="proj-loading">Error al cargar repositorios: ${error.message}</p>`;
   }
 }
 
+// Cargar repos al cargar la página
 loadRepos();
 
-// ── TABLEROS INTERACTIVOS PAGE ────────────────────────────────
-function abrirTablerosPage() {
-  const proyectos = [
-    {
-      titulo: 'Fútbol Argentino',
-      subtitulo: 'Estadísticas · 2008–2022 · 17 Clubes',
-      icono: '⚽',
-      color: '#1a6b3c',
-      url: 'https://coderhouse2025-droid.github.io/Tableros-Interactivos/F%C3%BAtbol%20Argentino/futbol_argentino.html'
-    },
-    {
-      titulo: 'Informe de Auditoría Presupuestaria',
-      subtitulo: 'Secretaría Control Ecológico · República Argentina',
-      icono: '📊',
-      color: '#1a4a1a',
-      url: 'https://coderhouse2025-droid.github.io/Tableros-Interactivos/Tablero%20de%20Control/TC%20(6).html'
-    },
-    {
-      titulo: 'CV – Dinámico',
-      subtitulo: 'Juan Manuel Orellana · Data Science & Analytics',
-      icono: '👤',
-      color: '#0d3b6e',
-      url: 'https://coderhouse2025-droid.github.io/Tableros-Interactivos/Cv%20-%20Din%C3%A1mico/cv_dinamico_orellana.html'
-    },
-    {
-      titulo: 'Dress Dashboard',
-      subtitulo: 'Tablero de indumentaria y moda',
-      icono: '🛹',
-      color: '#7b2d8b',
-      url: 'https://coderhouse2025-droid.github.io/Tableros-Interactivos/Dress/DRESS.html'
-    },
-    {
-      titulo: 'Librería Dashboard',
-      subtitulo: 'Tablero de gestión de librería',
-      icono: '📚',
-      color: '#8b4513',
-      url: 'https://coderhouse2025-droid.github.io/Tableros-Interactivos/Librer%C3%ADa/dashboard.html'
-    },
-    {
-      titulo: 'Repositorio',
-      subtitulo: 'GitHub · coderhouse2025-droid',
-      icono: '🐙',
-      color: '#24292e',
-      url: 'https://github.com/coderhouse2025-droid/Tableros-Interactivos'
-    }
-  ];
-
-  const html = `<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tableros Interactivos · Juan Manuel Orellana</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=Space+Mono&display=swap" rel="stylesheet"/>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg: #0a0f14;
-      --surface: #111820;
-      --accent: #1a6b3c;
-      --accent2: #2d9e5f;
-      --border: rgba(45,158,95,0.2);
-      --text: #e8f4f0;
-      --muted: #7a9e8a;
-    }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: 'DM Sans', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem 1.5rem;
-      position: relative;
-      overflow-x: hidden;
-    }
-    .bg-glow {
-      position: fixed; inset: 0; z-index: 0; pointer-events: none;
-    }
-    .glow {
-      position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.12;
-    }
-    .glow-1 { width: 500px; height: 500px; background: #2d9e5f; top: -150px; left: -150px; }
-    .glow-2 { width: 350px; height: 350px; background: #1a6b3c; bottom: -100px; right: -100px; }
-    .wrapper { position: relative; z-index: 1; width: 100%; max-width: 800px; }
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-    .header-label {
-      font-family: 'Space Mono', monospace;
-      font-size: 0.7rem;
-      letter-spacing: 0.2em;
-      color: var(--accent2);
-      text-transform: uppercase;
-      margin-bottom: 0.8rem;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2rem, 6vw, 3.2rem);
-      font-weight: 900;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      margin-bottom: 0.6rem;
-    }
-    header h1 span { color: var(--accent2); }
-    header p {
-      font-size: 0.95rem;
-      color: var(--muted);
-    }
-    .divider {
-      width: 60px; height: 3px;
-      background: linear-gradient(90deg, var(--accent), var(--accent2));
-      border-radius: 99px;
-      margin: 1.2rem auto;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.2rem;
-    }
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 1.8rem 2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.7rem;
-      text-decoration: none;
-      color: var(--text);
-      transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
-      position: relative;
-      overflow: hidden;
-    }
-    .card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(45,158,95,0.05), transparent 60%);
-      pointer-events: none;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 16px 48px rgba(45,158,95,0.18);
-      border-color: rgba(45,158,95,0.45);
-    }
-    .card-icon {
-      font-size: 2.2rem;
-      line-height: 1;
-    }
-    .card-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      font-weight: 700;
-      line-height: 1.25;
-      color: var(--text);
-    }
-    .card-sub {
-      font-size: 0.8rem;
-      color: var(--muted);
-      font-family: 'Space Mono', monospace;
-      letter-spacing: 0.04em;
-    }
-    .card-arrow {
-      margin-top: auto;
-      padding-top: 0.8rem;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--accent2);
-      transition: gap 0.2s;
-    }
-    .card:hover .card-arrow { gap: 0.7rem; }
-    .back-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-top: 2.5rem;
-      padding: 0.7rem 1.6rem;
-      border: 1.5px solid var(--border);
-      border-radius: 10px;
-      font-size: 0.85rem;
-      font-weight: 500;
-      color: var(--muted);
-      cursor: pointer;
-      background: transparent;
-      transition: border-color 0.2s, color 0.2s;
-      text-decoration: none;
-    }
-    .back-btn:hover { border-color: var(--accent2); color: var(--accent2); }
-    .footer-wrap { text-align: center; }
-  </style>
-</head>
-<body>
-  <div class="bg-glow"><div class="glow glow-1"></div><div class="glow glow-2"></div></div>
-  <div class="wrapper">
-    <header>
-      <p class="header-label">Juan Manuel Orellana · Data Science &amp; Analytics</p>
-      <h1>Tableros <span>Interactivos</span></h1>
-      <div class="divider"></div>
-      <p>Seleccioná un proyecto para explorarlo</p>
-    </header>
-    <div class="grid">
-      ${proyectos.map(p => `
-      <a href="${p.url}" target="_blank" class="card">
-        <div class="card-icon">${p.icono}</div>
-        <div class="card-title">${p.titulo}</div>
-        <div class="card-sub">${p.subtitulo}</div>
-        <div class="card-arrow">
-          Ver proyecto
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </div>
-      </a>`).join('')}
-    </div>
-    <div class="footer-wrap">
-      <button class="back-btn" onclick="window.close()">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-        Cerrar
-      </button>
-    </div>
-  </div>
-</body>
-</html>`;
-
-  const blob = new Blob([html], { type: 'text/html' });
-  const url = URL.createObjectURL(blob);
-  window.open(url, '_blank');
-}
-
-// ── HERRAMIENTAS PAGE ─────────────────────────────────────────
-function abrirHerramientasPage() {
-  const herramientas = [
-    {
-      titulo: 'Stock Manager',
-      subtitulo: 'Gestión de Inventario · GitHub Pages',
-      icono: '📦',
-      url: 'https://coderhouse2025-droid.github.io/Stock/'
-    },
-    {
-      titulo: 'Generador QR',
-      subtitulo: 'Generador de Códigos QR · GitHub Pages',
-      icono: '🔲',
-      url: 'https://coderhouse2025-droid.github.io/Generador_QR/'
-    },
-    {
-      titulo: 'Chatbot IA',
-      subtitulo: 'Asistente IA · Normativa Nuclear Argentina',
-      icono: '🤖',
-      url: 'https://chatbot-kappa-wheat-30.vercel.app/'
-    },
-    {
-      titulo: 'App',
-      subtitulo: 'Aplicación · GitHub Pages',
-      icono: '💰',
-      url: 'https://coderhouse2025-droid.github.io/App/'
-    }
-  ];
-
-  const html = `<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Herramientas · Juan Manuel Orellana</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=Space+Mono&display=swap" rel="stylesheet"/>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg: #0a0f14;
-      --surface: #111820;
-      --accent: #1a6b3c;
-      --accent2: #2d9e5f;
-      --border: rgba(45,158,95,0.2);
-      --text: #e8f4f0;
-      --muted: #7a9e8a;
-    }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: 'DM Sans', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem 1.5rem;
-      position: relative;
-      overflow-x: hidden;
-    }
-    .bg-glow { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
-    .glow { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.12; }
-    .glow-1 { width: 500px; height: 500px; background: #2d9e5f; top: -150px; left: -150px; }
-    .glow-2 { width: 350px; height: 350px; background: #1a6b3c; bottom: -100px; right: -100px; }
-    .wrapper { position: relative; z-index: 1; width: 100%; max-width: 800px; }
-    header { text-align: center; margin-bottom: 3rem; }
-    .header-label {
-      font-family: 'Space Mono', monospace;
-      font-size: 0.7rem;
-      letter-spacing: 0.2em;
-      color: var(--accent2);
-      text-transform: uppercase;
-      margin-bottom: 0.8rem;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2rem, 6vw, 3.2rem);
-      font-weight: 900;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      margin-bottom: 0.6rem;
-    }
-    header h1 span { color: var(--accent2); }
-    header p { font-size: 0.95rem; color: var(--muted); }
-    .divider {
-      width: 60px; height: 3px;
-      background: linear-gradient(90deg, var(--accent), var(--accent2));
-      border-radius: 99px;
-      margin: 1.2rem auto;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.2rem;
-    }
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 1.8rem 2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.7rem;
-      text-decoration: none;
-      color: var(--text);
-      transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
-      position: relative;
-      overflow: hidden;
-    }
-    .card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(45,158,95,0.05), transparent 60%);
-      pointer-events: none;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 16px 48px rgba(45,158,95,0.18);
-      border-color: rgba(45,158,95,0.45);
-    }
-    .card-icon { font-size: 2.2rem; line-height: 1; }
-    .card-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      font-weight: 700;
-      line-height: 1.25;
-      color: var(--text);
-    }
-    .card-sub {
-      font-size: 0.8rem;
-      color: var(--muted);
-      font-family: 'Space Mono', monospace;
-      letter-spacing: 0.04em;
-    }
-    .card-arrow {
-      margin-top: auto;
-      padding-top: 0.8rem;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--accent2);
-      transition: gap 0.2s;
-    }
-    .card:hover .card-arrow { gap: 0.7rem; }
-    .back-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-top: 2.5rem;
-      padding: 0.7rem 1.6rem;
-      border: 1.5px solid var(--border);
-      border-radius: 10px;
-      font-size: 0.85rem;
-      font-weight: 500;
-      color: var(--muted);
-      cursor: pointer;
-      background: transparent;
-      transition: border-color 0.2s, color 0.2s;
-      text-decoration: none;
-    }
-    .back-btn:hover { border-color: var(--accent2); color: var(--accent2); }
-    .footer-wrap { text-align: center; }
-  </style>
-</head>
-<body>
-  <div class="bg-glow"><div class="glow glow-1"></div><div class="glow glow-2"></div></div>
-  <div class="wrapper">
-    <header>
-      <p class="header-label">Juan Manuel Orellana · Data Science &amp; Analytics</p>
-      <h1>Herramientas <span>&amp; Apps</span></h1>
-      <div class="divider"></div>
-      <p>Seleccioná una herramienta para abrirla</p>
-    </header>
-    <div class="grid">
-      ${herramientas.map(h => `
-      <a href="${h.url}" target="_blank" class="card">
-        <div class="card-icon">${h.icono}</div>
-        <div class="card-title">${h.titulo}</div>
-        <div class="card-sub">${h.subtitulo}</div>
-        <div class="card-arrow">
-          Abrir app
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </div>
-      </a>`).join('')}
-    </div>
-    <div class="footer-wrap">
-      <button class="back-btn" onclick="window.close()">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-        Cerrar
-      </button>
-    </div>
-  </div>
-</body>
-</html>`;
-
-  const blob = new Blob([html], { type: 'text/html' });
-  const url = URL.createObjectURL(blob);
-  window.open(url, '_blank');
-}
-
-// ── FORMULARIO ───────────────────────────────────────────────
+// ── FORMULARIO CONTACTO ──────────────────────────────────────
 function sendMail() {
   const name = document.getElementById('f-name').value.trim();
   const email = document.getElementById('f-email').value.trim();
-  const msg = document.getElementById('f-msg').value.trim();
-  const feedback = document.getElementById('form-msg');
-  if (!name || !email || !msg) { feedback.textContent = '⚠️ Completá todos los campos.'; return; }
-  emailjs.send('service_abc123','template_xyz789',{name:name,from_name:name,from_email:email,email:email,message:msg,to_email:'orellanajuan80@hotmail.com',time:new Date().toLocaleString('es-AR')},{publicKey:'JuTeDtT5ok6dkqN_V'})
-    .then(function(){
-      feedback.textContent = '✅ ¡Mensaje enviado correctamente!';
+  const message = document.getElementById('f-msg').value.trim();
+  const statusDiv = document.getElementById('form-msg');
+
+  statusDiv.textContent = '';
+
+  if (!name || !email || !message) {
+    statusDiv.textContent = '❌ Por favor completa todos los campos';
+    statusDiv.style.color = '#d32f2f';
+    return;
+  }
+
+  const templateParams = {
+    to_email: 'juanmanuelvgo@gmail.com',
+    from_name: name,
+    from_email: email,
+    message: message,
+  };
+
+  emailjs.send('service_xt9dygm', 'template_o2qyvfh', templateParams)
+    .then(() => {
+      statusDiv.textContent = '✅ ¡Mensaje enviado correctamente!';
+      statusDiv.style.color = '#1a6b3c';
       document.getElementById('f-name').value = '';
       document.getElementById('f-email').value = '';
       document.getElementById('f-msg').value = '';
-    }, function(error){
-      feedback.textContent = '❌ Error al enviar: ' + (error && (error.text || error.message) ? (error.text || error.message) : 'revisá la consola.');
-      console.error('EmailJS error:', error);
+    })
+    .catch((error) => {
+      statusDiv.textContent = '❌ Error al enviar: ' + error.status;
+      statusDiv.style.color = '#d32f2f';
     });
 }
 
-// ── CV VIEWER ────────────────────────────────────────────────
-const CV_RAW_URL = 'https://raw.githubusercontent.com/coderhouse2025-droid/Portafolio-JM/main/CV/CV.png';
-
+// ── CV PAGE ──────────────────────────────────────────────────
 function openCVPage() {
-  const page = document.getElementById('cv-page');
-  page.style.display = 'flex';
-  document.body.style.overflow = 'hidden';
-  const img = document.getElementById('cv-image');
-  if (img && !img.dataset.loaded) {
-    img.dataset.loaded = '1';
-    img.addEventListener('error', () => {
-      img.style.display = 'none';
-      const fb = document.getElementById('cv-fallback');
-      if (fb) fb.style.display = 'flex';
-    });
-    img.src = CV_RAW_URL;
-  }
-  const dl = document.getElementById('cv-download-btn');
-  if (dl) dl.href = CV_RAW_URL;
-  const fl = document.getElementById('cv-fallback-btn');
-  if (fl) fl.href = CV_RAW_URL;
+  const cvPage = document.getElementById('cv-page');
+  const cvImage = document.getElementById('cv-image');
+  const cvFallback = document.getElementById('cv-fallback');
+
+  cvPage.style.display = 'flex';
+  cvFallback.style.display = 'none';
+
+  // Intentar cargar CV desde URL
+  const cvUrl = 'https://raw.githubusercontent.com/coderhouse2025-droid/Portafolio-JM/main/CV.png';
+  cvImage.src = cvUrl;
+  cvImage.onload = () => {
+    cvFallback.style.display = 'none';
+  };
+  cvImage.onerror = () => {
+    cvFallback.style.display = 'flex';
+  };
+
+  // Configurar botón de descarga
+  document.getElementById('cv-download-btn').href = cvUrl;
+  document.getElementById('cv-fallback-btn').href = cvUrl;
 }
 
 function closeCVPage() {
   document.getElementById('cv-page').style.display = 'none';
-  document.body.style.overflow = '';
 }
+
+// Cerrar CV al hacer click fuera
+document.getElementById('cv-page')?.addEventListener('click', function (e) {
+  if (e.target === this) closeCVPage();
+});
 
 </script>
 
