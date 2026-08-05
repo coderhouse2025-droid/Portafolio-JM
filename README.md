@@ -394,4 +394,4 @@ Data Science · ML · Analítica de Negocios · Control de Gestión
 
 ## 📄 Licencia
 
-MIT License — libre para uso como referencia o inspiración para portafolios propios.
+Este proyecto está bajo la [Licencia MIT](LICENSE) — libre para uso como referencia, aprendizaje o desarrollo de proyectos propios.
